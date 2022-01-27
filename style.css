@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bgImage{
+    background-image: url(/bg1.jpeg);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgOpactiy{
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.nav-link{
+    color: white !important;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: right 20px;
+}
+.title{
+    padding-top: 12rem;
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+}
+.icon{
+    color: blue;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.card{
+    box-shadow: 3px 4px 10px black;
+    height: 350px;
+    width: 100%;
+    padding: 15px;
+}
+.web{
+    text-align: center;
+    color: blue;
+    font-size: 1.4rem;
+}
+.text{
+    color: gray;
+    text-align: justify;
+    padding: 12px;
+}
+.scrolled{
+    background-color: blue;
+    transition: 1s;
+}
+input{
+    width: 90%;
+    padding: 10px;
+
+}
+.fas{
+    margin-left: 30px;
+    color: goldenrod;
+}
+.bg-black{
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('/bg2.jpg');
+}
+.client{
+    color: white;
+    font-size: 2rem;
+   
+    text-align: center;
+}
+.mainTitle{
+    margin-top: 10rem;
+    text-align: center;
+}
+.count{
+    color: white;
+}
+.img{
+    width: 100px;
+    height: 300px;
+    border-radius: 50%;
+}
+.div1{
+    text-align: center;
+}
+footer{
+    background: rgb(5, 5, 41);
+    width: 100%;
+    height: 450px;
+}
+.part1,.part2,.part3{
+    opacity: 0;
+
+}
+.part1.animated,.part2.animated,.part3.animated{
+    opacity: 1;
+}
